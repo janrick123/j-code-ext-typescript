@@ -11,6 +11,15 @@ language:
     line: "//"
     blockStart: "/*"
     blockEnd: "*/"
+  strings: ["\"", "'", "`"]
+  keywords: [const, let, var, function, return, if, else, for, while, do, switch, case,
+    default, break, continue, new, class, extends, super, this, typeof, instanceof, in,
+    of, try, catch, finally, throw, async, await, yield, import, export, from, as, null,
+    undefined, true, false, delete, void, interface, type, enum, namespace, declare,
+    implements, public, private, protected, readonly, abstract, keyof, infer, static,
+    get, set]
+  types: [string, number, boolean, any, unknown, never, void, object, symbol, bigint,
+    Record, Partial, Readonly, Required, Pick, Omit, Array, Promise, Map, Set, Date]
   formatter:
     command: "npx --yes prettier --write {{file}} 2>/dev/null || true"
     indent: 2
