@@ -19,7 +19,7 @@ suggests:
   lsps: [typescript-language-server]
   extensions: []
 images:
-  icon: media/icon.pngmedia/icon.png
+  icon: media/icon.png
   samples: []
   walkthrough: []
 entry:
